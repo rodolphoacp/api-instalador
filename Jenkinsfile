@@ -26,9 +26,9 @@ pipeline {
         echo 'Database and Aplication'
       }
     }
-    stage('Distribute Release') {
+    stage('Distribute Pack Release') {
       steps {
-        echo 'Distribute to Octopus Deploy'
+        echo 'Pack Release to Octopus Deploy'
       }
     }
   }
